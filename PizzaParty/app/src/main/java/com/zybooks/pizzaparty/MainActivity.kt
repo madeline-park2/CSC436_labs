@@ -127,7 +127,7 @@ fun RadioGroup(
                 modifier = modifier
                     .selectable(
                         selected = isSelectedOption(option),
-                        onClick = { selectedOption = option },
+                        onClick = { onSelected(option) },
                         role = Role.RadioButton
                     )
                     .padding(8.dp)
