@@ -21,3 +21,4 @@ class PizzaPartyViewModel : ViewModel() {
         totalPizzas = calc.totalPizzas
     }
 }
+
